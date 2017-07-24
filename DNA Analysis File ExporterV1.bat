@@ -1,6 +1,6 @@
 REM DNA Analysis File Exporter V 1.0
 REM By Joe Juette
-REM Purpose: Only get the data needed for analysis and presentations. There is no longer the need to have clients uploading the entire DNA folder.
+REM Purpose: Only get the data needed for analysis and presentations. There is no longer the need to upload the entire DNA folder for analysis.
 REM File MUST be placed in the DNA.EXE Directory and run it from there. 
 REM Select the operation.
 REM When Creating the packages you will be asked if this is realated to a File or Directory ALWAYS select D for Directory.
