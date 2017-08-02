@@ -49,20 +49,20 @@ xcopy Reports Packages_To_Send\Analysis_Package
 copy "DNA Map"\*.gz Packages_To_Send\Analysis_Package
 GOTO MENU 
 :Report
-xcopy Reports Reports_Package
+xcopy Reports Packages_To_Send\Reports_Package
 GOTO MENU
 :Map
-md Map_Package
-copy "DNA MAP"\*.gz Map_Package
+md Packages_To_Send\Map_Package
+copy "DNA MAP"\*.gz Packages_To_Send\Map_Package
 GOTO MENU
 :Logs
-xcopy /S Log Logs_Package
-copy DNA.DbObfuscation.log Logs_Package
+xcopy /S Log Packages_To_Send\Logs_Package
+copy DNA.DbObfuscation.log Packages_To_Send\Logs_Package
 GOTO MENU
 :TS
-xcopy /S Log Troubleshooting_Package
-copy DNA.exe.config Troubleshooting_Package
-copy DNA.DbObfuscation.log Troubleshooting_Package
+xcopy /S Log Packages_To_Send\Troubleshooting_Package
+copy DNA.exe.config Packages_To_Send\Troubleshooting_Package
+copy DNA.DbObfuscation.log Packages_To_Send\Troubleshooting_Package
 GOTO MENU
 
 :colorEcho
